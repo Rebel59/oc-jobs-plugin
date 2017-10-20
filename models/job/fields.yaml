@@ -1,0 +1,53 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+tabs:
+    fields:
+        title:
+            label: rebel59.jobs::lang.models.job.title
+            span: left
+            tab: Job
+        function:
+            label: rebel59.jobs::lang.models.job.function
+            span: right
+            tab: Job
+        description:
+            label: rebel59.jobs::lang.models.job.description
+            type: textarea
+            tab: Job
+        published:
+            label: rebel59.jobs::lang.models.job.published
+            type: switch
+            span: left
+            tab: Job
+        published_at:
+            default: now
+            type: datepicker
+            mode: datetime
+            trigger:
+                action: enable
+                field: published
+                condition: checked
+            span: right
+            tab: Job
+        cover:
+            label: rebel59.jobs::lang.models.job.cover
+            type: mediafinder
+            mode: image
+            span: left
+            tab: Job
+        avatar:
+            label: rebel59.jobs::lang.models.job.avatar
+            type: mediafinder
+            mode: image
+            span: right
+            tab: Job
+        button_text:
+            label: rebel59.jobs::lang.models.job.button_text
+            span: left
+            tab: Button
+        button_url:
+            label: rebel59.jobs::lang.models.job.button_text
+            span: left
+            tab: Button
+

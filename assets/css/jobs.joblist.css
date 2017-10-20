@@ -1,0 +1,28 @@
+.jobs .card-header {
+    padding-bottom: 75px;
+    background-size: cover;
+    background-position: center;
+}
+
+.jobs .card-header h3 {
+    margin: 15px 0;
+}
+
+.jobs .card-image {
+    position: relative;
+    text-align: center;
+}
+
+.jobs .card-header {
+    padding-bottom: 75px;
+    background-size: cover;
+    background-position: center;
+}
+.jobs .card-image img {
+    margin-top: -75px;
+    height: 150px;
+}
+
+.jobs .card-body {
+    text-align: center;
+}

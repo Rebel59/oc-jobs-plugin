@@ -1,0 +1,17 @@
+# ===================================
+#  Reorder Behavior Config
+# ===================================
+
+# Reorder Title
+title: rebel59.jobs::lang.models.reorder_title
+
+# Attribute name
+nameFrom: function
+
+# Model Class name
+modelClass: Rebel59\Jobs\Models\Job
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: reorder_toolbar

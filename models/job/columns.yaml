@@ -1,0 +1,7 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    function:
+        label: rebel59.jobs::lang.models.job.function
